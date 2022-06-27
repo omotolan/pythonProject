@@ -22,9 +22,13 @@ class HealthProfile:
         self.last_name = last_name
 
     def set_weight(self, weight):
+        if (weight <= 0):
+            print("weight can not be less than or equal to 0")
         self.weight = weight
 
     def set_height(self, height):
+        if(height <= 0):
+            print("height can not be less than or equal to 0")
         self.height = height
 
     def get_first_name(self):
