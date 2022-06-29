@@ -46,3 +46,4 @@ annual_salary = calculate_annual_salary(employee_one.get_monthly_salary())
 
 print(employee_one.__dict__)
 print(f"annual salary is {annual_salary}")
+employee_one.employee_details()
